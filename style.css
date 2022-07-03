@@ -1,0 +1,64 @@
+* {
+  text-align: center;
+}
+
+.heading {
+  margin-top: 20vh;
+}
+
+.secondary-heading {
+  margin: 40px 0;
+}
+
+.url-input, .get-button {
+  font-size: 1.3em;
+  padding: 5px 10px;
+}
+
+.url-input {
+  border-radius:4px 0px 0px 4px;
+  width:30em;
+  text-align: left;
+  border:2px solid #EEEEEE;
+  background: #EEEEEE;
+  outline:none;
+}
+
+.url-input:focus:valid {
+  border: 2px solid green;
+}
+
+.url-input:focus:invalid {
+  border-color: red;
+}
+
+.get-button {
+  border-radius: 0px 4px 4px 0px;
+  border: 2px solid black;
+  background: rgb(100, 99, 99);
+  color:rgb(224, 221, 221);
+}
+
+.download-button {
+  display: block;
+  width: 400px;
+  margin: 40px auto;
+  font-size: 1.5em;
+  padding: 7px 11px;
+  background: rgb(45, 200, 45);
+  border: 2px solid green;
+  border-radius: 11px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

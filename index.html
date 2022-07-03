@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>NeYT!</title>
+</head>
+<body>
+  <h1 class="heading">Welcome to NeYT!</h1>
+  <h3 class="secondary-heading">The Neat YT Audio Downloader</h3>
+  <form onsubmit="event.preventDefault()">
+    <input class="url-input" type="url" placeholder="https://youtube.com/watch?v=example"
+      pattern="https://youtu?.be.*" required>
+    <button class="get-button" disabled>Generate Link</button>
+  </form>
+  <p>Insert a valid URL above to generate your download link</p>
+  <a href="" class="download-button hide" target="_blank">Download</a>
+  <script src="./index.js"></script>
+</body>
+</html>
