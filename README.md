@@ -1,2 +1,2 @@
 # neyt
-A simple YT audio downloader using express and ytdl-core.
+A neat YT audio downloader using express and ytdl-core.
