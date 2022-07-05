@@ -6,10 +6,6 @@ const port = 4000
 
 app.use(cors())
 
-app.listen(port, () => {
-  console.log(`Server listening on port ${port}`)
-})
-
 app.get('/download', (req, res) => {
   const URL = req.query.URL
   res.header('Content-Disposition', 'attachment; filename="audio.webm"')
@@ -25,4 +21,8 @@ app.get('/download', (req, res) => {
     filter: 'audioonly',
     quality: 'highestaudio'
   }).pipe(res)
+})
+
+app.listen(port, () => {
+  console.log(`Server listening on port ${port}`)
 })
